@@ -3,19 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package emptyjavaproject;
+package FloopyLand;
 
 /**
  *
  * @author paul.kline
  */
-public class Main {
+public class Runner {
 
     /**
+     * The two lines of code necessary for running the program
+     *
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FloopyLand floop = new FloopyLand(new Controller());
+        floop.begin(8);
+
     }
-    
+
 }
